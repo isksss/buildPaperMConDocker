@@ -1,0 +1,7 @@
+services:
+  paper:
+    build: .
+    ports:
+      - "25565:25565"
+      - "19132:19132"
+    command: ./start.sh
